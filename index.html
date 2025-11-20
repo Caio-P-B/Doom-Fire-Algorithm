@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doom Fire</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Doom Fire Effect</h1>
+        <h2>Algorithm</h2>
+    </div>
+    <div class="fireArea">        
+        <div id="fireCanvas"></div>
+    </div>
+    <div class="directionBtns">
+        <button onclick="toLeft()" class="btn directionBtn"><</button>
+        <button onclick="toCenter()" class="btn directionBtn">|</button>
+        <button onclick="toRight()" class="btn directionBtn">></button>
+    </div>
+    <div class="quantityBtns">
+        <button class="btn quantityBtn" onclick="decreaseFireSource()">-</button>
+        <button class="btn quantityBtn" onclick="destroyFireSource()">Min Fire</button>
+        <button class="btn quantityBtn" onclick="createFireSource()">max Fire</button>
+        <button class="btn quantityBtn" onclick="increaseFireSource()">+</button>
+    </div>
+    <div class="colors">
+        <button class="colorBtn color1" onclick="changeColorToOrange()">Original Flames</button>
+        <button class="colorBtn color2" onclick="changeColorToRed()">Red Flames</button>
+        <button class="colorBtn color3" onclick="changeColorToBlue()">Blue Flames</button>
+        <button class="colorBtn color4" onclick="changeColorToGreen()">Green Flames</button>
+        <button class="colorBtn color5" onclick="changeColorToPink()">Pink Flames</button>
+        <button class="colorBtn color6" onclick="changeColorToCandy()">Candy Flames</button>
+        <button class="colorBtn color7" onclick="changeColorToGrayscale()">Grayscale Flames</button>
+        <button class="colorBtn color8" onclick="changeColorToRainbow()">Rainbow Flames</button>
+    </div>
+    <button class="btn debugBtn" onclick="toggleDebugMode()">Debug mode</button>
+    <script src="script.js"></script>
+</body>
+</html>
