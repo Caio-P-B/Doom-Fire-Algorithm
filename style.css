@@ -29,7 +29,12 @@ body {
     text-shadow: 5px 5px 15px black;
 }
 
+.title>a {
+    color: #b8b8b8;
+}
+
 .fireArea {
+    margin: 20px;
     outline: 10px solid #000;
     border: 10px solid #f1f1f1;
     border-radius: 5px;
